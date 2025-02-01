@@ -147,3 +147,45 @@ header{
 .rightDown{
     border-bottom-right-radius: .5rem;
 }
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+    width: 1rem;
+    height: 1rem;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10px;
+    margin: .5rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--sandy-brown);
+    border-radius: 10px;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: gainsboro;
+}
+
+::-webkit-scrollbar-button:increment {
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-image: url('images/arrowRight.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+::-webkit-scrollbar-button:decrement {
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-image: url('images/arrow.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
