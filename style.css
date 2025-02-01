@@ -13,6 +13,7 @@ html{
 --sandy-brown: hsla(27, 87%, 67%, 1);
 --burnt-sienna: hsla(12, 76%, 61%, 1);
 font-family: "Roboto", serif;
+font-size: 14px;
 }
 body{
     padding: 0;
