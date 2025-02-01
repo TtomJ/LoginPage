@@ -18,6 +18,7 @@ font-size: 14px;
 body{
     padding: 0;
     margin: 0;
+    background-color: var(--charcoal);
 }
 nav{
     position: fixed;
@@ -94,6 +95,7 @@ header{
     padding: 1rem;
     border-radius: 1rem;
     margin: .5rem;
+    max-width: 35rem;
 }
 .bi-chat-right-dots-fill{
     font-size: 1.2rem; color: white;  
@@ -105,48 +107,43 @@ header{
 #work{
     margin-top: 0.5rem;
 }
-#calendarContainer{
-    background-color: var(--burnt-sienna);
+#calendarCon{
     overflow: auto;
-    border-radius: 1rem;
-    margin-top: 1rem;
+}
+#calendar{
+    background-color: yellow;
     display: flex;
-    padding: .5rem;
     margin: .5rem;
+    min-width: 50rem;
+    border: solid;
+    border-radius: 1rem;
 }
-#calendar {
+.calendarIte{
     width: 100%;
-    max-width: 1200px; /* Adjust as needed */
-    min-width: 300px;  /* Adjust as needed */
-    border-collapse: collapse;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
-#calendar th, #calendar td {
-    padding: 0.5rem;
-    border: 1px solid #ddd;
-    text-align: center;
-    word-wrap: break-word; /* Ensure long words break to fit within the cell */
+.timeCon{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
 }
-#rightDown{
-    border-bottom-left-radius: 1rem;
+.timeIte{
 }
-#calendarContainer::-webkit-scrollbar {
-    width: 12px;
+.cell{
+    border: solid 1px black;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-#calendarContainer::-webkit-scrollbar-track {
-    background: var(--saffron);
-    border-bottom-right-radius: 1rem;
-    border-bottom-left-radius: 1rem;
+.leftUp{
+    border-top-left-radius: .5rem;
 }
-
-#calendarContainer::-webkit-scrollbar-thumb {
-    background-color: var(--charcoal);
-    border-radius: 10px;
-    border: 3px solid var(--saffron);
+.rightUp{
+    border-top-right-radius: .5rem;
 }
-
-#calendarContainer::-webkit-scrollbar-thumb:hover {
-    background-color: black;
+.leftDown{
+    border-bottom-left-radius: .5rem;
+}
+.rightDown{
+    border-bottom-right-radius: .5rem;
 }
