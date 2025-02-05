@@ -143,8 +143,6 @@ header{
     flex-direction: column;
     width: 20rem;
 }
-.timeIte{
-}
 .cell{
     border: solid 1px black;
     height: 2rem;
@@ -199,6 +197,63 @@ header{
     border-radius: 0.5rem;
     height: 12rem;
 }
-#registerCon{
-    margin-top: 2.5rem; 
-}   
+#registerCon {
+    max-width: 50rem;
+    width: 40rem;
+    flex-grow: 1;
+    margin: 2.5rem 1.5rem 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    background-color: rgba(246, 247, 251, 0.6);
+}
+
+#register {
+    background-color: var(--saffron);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 0.5rem;
+}
+
+#registerForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: var(--primary-color);
+}
+
+#registerItem {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#registerItem label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+#registerItem input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+#registerItem button {
+    padding: 0.75rem;
+    background-color: var(--persian-green);
+    color: var(--white-color);
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#registerItem button:hover {
+    background-color: var(--sandy-brown);
+}
+
