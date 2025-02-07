@@ -204,7 +204,7 @@ header{
     margin: 2.5rem 1.5rem 1.5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 1rem;
-    background-color: rgba(246, 247, 251, 0.6);
+    background-color: rgba(202, 204, 204, 0.8);
 }
 
 #register {
@@ -255,5 +255,21 @@ header{
 
 #registerItem button:hover {
     background-color: var(--sandy-brown);
+}
+
+#registerItem p {
+    margin: 0;
+    font-size: 1rem;
+    color: var(--black-color);
+}
+
+#registerItem a {
+    color: var(--persian-green);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#registerItem a:hover {
+    text-decoration: underline;
 }
 
